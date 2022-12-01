@@ -89,13 +89,13 @@ def response(voice):  # Konuşmamıza döndürdüğü cevaplar
         runApp = record()
         runApp = runApp.lower()
         if 'lol' in voice:
-            os.startfile("D:\Riot Games\VALORANT\Riot Client\RiotClientServices.exe")
+            os.startfile("path of exe")
             time.sleep(15)
             if "RiotClientServices.exe" in (p.name() for p in psutil.process_iter()):
                 time.sleep(5)
-                pyautogui.typewrite("galatas123gs", interval=0.25)
+                pyautogui.typewrite("yourid", interval=0.25)
                 pyautogui.press('tab')
-                pyautogui.typewrite("458galata88", interval=0.25)
+                pyautogui.typewrite("password", interval=0.25)
                 pyautogui.press('enter')
                 time.sleep(10)
                 pyautogui.click(x=350, y=520)
